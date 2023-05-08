@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid grey;
+    height: 150px;
+    width: 100%;
+    font-size: 30px;
+}
+body {
+    background-image: url('https://www.shutterstock.com/image-photo/birthday-cupcakes-on-green-background-260nw-241482358.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+}
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.all-cupcakes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#cupcake-order {
+    width: 100vw;
+}
